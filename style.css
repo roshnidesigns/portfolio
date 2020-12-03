@@ -1,0 +1,28 @@
+.header-name{
+    padding: 10% 27%;
+    text-align: center;
+    align-items: center;
+
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+.header-desc{
+    margin: auto;
+    padding: 10% 27%;
+    text-align: center;
+    align-items: center;
+
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.header{
+    margin: auto;
+}
+
+title {
+    font-family: 'Lora', serif;
+
+}
