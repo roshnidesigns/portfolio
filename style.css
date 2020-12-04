@@ -4,6 +4,16 @@
     align-content: center;
 }
 
+.card-3{
+    margin: auto;
+    background-color: #AD875E;
+    text-align: center;
+    padding-top: 6.4%;
+    padding-left: 8%;
+    padding-right: 8%;
+    border-radius: 16px;
+    height: inherit;
+}
 .card-2{
     margin: auto;
     background-color: #7E56C1;
