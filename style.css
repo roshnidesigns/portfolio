@@ -1,88 +1,105 @@
-.item-3{
-    background-color: #FF7262;
-    border-radius: inherit;
+
+.about{
+    padding: 0% 24%;
+    margin: 48px 0px;
 
 }
-.item-2{
-    background-color: #1ABCFE;
-    border-radius: inherit;
+.manymore{
+    margin: 16px 0px;
+    text-align: center;
+    padding: 0% 24% ;
+    font-size: 24px;
+    letter-spacing: 0.8px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+}
 
-}
-.item-1{
-    background-color: #000;
-    border-radius: inherit;
 
+.card-3{
+    background: #FF7262;
+    background-image: url("images/i3.png");
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 100px;
 }
-.item-image{    
-    height: auto;
-    text-align: right;
-    width: 16%;
-    margin-left: 80%;
-    margin-top: -16%;
+.card-2{
+    background: #1ABCFE;
+    background-image: url("images/i2.png");
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 100px;
 }
-.full{
-    width: 16%;
-    margin-left: 80%;
-    margin-top: -16%;
+.card-1{
+    background: rgb(46, 46, 46);
+    background-image: url("images/i1.png");
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 100px;
 }
-.half{
-    width: 24%;
-    margin-left: 48%;
-    margin-top: 0%;
-}
-.item-title{
+
+.card-title{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: white;
     font-size: 24px;
     letter-spacing: 0.8px;
-    margin: 8px auto;
+    margin: 10px auto;
     
 }
-.item-desc{
+.card-desc{
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 14px;
     color: white;
     line-height: 18px;
-    margin: 8px auto;
+    margin: 10px auto;
     letter-spacing: 0.16px;
 
 }
-.item-container{
-    width: 64%;
-    padding: 4% 8%;
-    border-radius: inherit;
-
+.card{
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 16px 120px 16px 48px;
+  cursor: pointer;
 }
-.side-item{
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card img{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    max-height: 120px;
+}
+@media(max-width: inherit){
+    .card{
+      margin: 24px;
+    }
+} 
+.side-card{
     width: inherit;
     height: fit-content;
-    background: #fff;
     cursor: pointer;
     border-radius: 12px;
     margin: 48px 0px;
 
-}
-.side-item:hover{
-    box-shadow: 0 6px 10px rgba(0,0,0,.16), 0 0 6px rgba(0,0,0,.05);
-    transition: 0.5s;
-    
 }
 .sidemenu{
     padding: 0% 24%;
     margin-top: 48px;
 
 }
+ 
 
 
-
-.card-image{
+.item-image{
     width: 72%;
     height: auto;
     align-content: center;
 }
-.card-3{
+.item-3{
     margin: auto;
     background-color: #AD875E;
     text-align: center;
@@ -92,7 +109,7 @@
     border-radius: inherit;
     height: inherit;
 }
-.card-2{
+.item-2{
     margin: auto;
     background-color: #7E56C1;
     text-align: center;
@@ -102,7 +119,7 @@
     border-radius: inherit;
     height: inherit;
 }
-.card-1{
+.item-1{
     position: relative;
     margin: auto;
     background-color: #93C47D;
@@ -114,6 +131,7 @@
     border-radius: inherit;
     height: inherit;
 }
+
 .project-title{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -137,7 +155,7 @@
 }
 .project-link{
     position: relative;
-    bottom: 16px;
+    bottom: 8px;
     margin-top: -8px;
     width: 100%;
     text-align: center;
@@ -240,16 +258,39 @@
     font-size: inherit;
 }
 .sub-header{
-    margin-top: 32px ;
+    margin: 32px 0px;
     text-align: center;
+    padding: 0% 24% ;
 }
-.about{
+
+.name-toggle{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 8px;color: gold;    
+    text-decoration: none;
+    content: "It means Light!";
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    font-weight: 400px;
+
+}
+
+.name{
+    font-family: 'Open Sans', sans-serif;
     padding: 0px 8px;
     color: lightslategray;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+    text-decoration: underline;
 }
-.resume{
+#resume{
     padding: 0px 8px;
     color: lightskyblue;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 8px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.16px;
 
 }
 
@@ -257,7 +298,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 button{
-    margin: 0px 0px;
+    margin: 8px 0px;
     padding: 8px 16px;
     color: white;
     background-color: rgba(255, 255, 255, 0.2);

@@ -1,20 +1,16 @@
-jQuery(document).ready(function($) {
-    var alterClass = function() {
-      var ww = document.body.clientWidth;
-      if (ww < 400) {
-        const d = document.querySelector('.item-image');
-        d.classList.remove('full');
-        d.classList.add('half');
+document.getElementById("name").addEventListener("click", function myfunction () {
+    var name = document.getElementById("name");
 
-      } else if (ww >= 401) {
-        const d = document.querySelector('.item-image');
-        d.classList.remove('half');
-        d.classList.add('full');
-      };
-    };
-    $(window).resize(function(){
-      alterClass();
-    });
-    //Fire it when the page first loads:
-    alterClass();
-  });
+        if (name.innerHTML === "Roshni?") {
+            name.innerHTML = "means Light!💡";
+            name.classList.remove("name");
+            name.classList.add("name-toggle");
+        }
+        else if (name.innerHTML === "means Light!💡") {
+            name.innerHTML = "Roshni?";
+            name.classList.remove("name-toggle");
+            name.classList.add("name");
+        }
+
+    }
+)
