@@ -14,7 +14,7 @@
 <body>
     <div class="header">
         <div class="header-name">
-            Hola!
+            Howdy!
         </div>
 
         <!-- <div class="sub-header">
@@ -89,19 +89,38 @@
         </div>
 
         <div class="socials">
-            <p class="titles" style="font-size: 24px;">Social animal after all 💁🏻‍♀️</p>
+            <p class="titles" >Social animal after all 💁🏻‍♀️</p>
             <p class="social">
-                <img class="icon" src="images/dribbble.png" alt="">
-                <img class="icon" src="images/behance.png" alt="">
-                <img class="icon" src="images/twitter.png" alt="">
-                <img class="icon" src="images/medium.png" alt="">
-                <img class="icon" src="images/linkedin.png" alt="">
+               <a href="https://dribbble.com/roshnionDribbb/" target="_blank" rel="noopener noreferrer"> <img class="icon" src="images/dribbble.png" alt=""></a>
+
+               <a href="https://www.behance.net/roshnionBe" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="images/behance.png" alt=""></a>
+
+                <a href="https://twitter.com/tinycosmoSpks" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="images/twitter.png" alt=""></a>
+
+                <a href="https://roshniscribbles.medium.com/" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="images/medium.png" alt=""></a>
+
+                <a href="https://www.linkedin.com/in/roshnionin/" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="images/linkedin.png" alt=""></a>
+
             </p>
-            <p class="copy">
-                Copy my mail <span class="material-icons">
-                    content_copy
-                    </span>
-            </p>
+
+<div class="tooltip">
+
+            <button class="copy" id="copy" onclick="setClipboard('galwhodesigns@gmail.com')" onmouseout="outFunc()">       
+                
+                <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+            Copy my mail 
+                <span class="material-icons">content_copy
+                </span>
+            
+            </button>
+
+</div>
+
+
         </div>
 
     </div>
@@ -123,6 +142,7 @@
 
 
 
-    
+    <script src="animate.js"></script>
+
 </body>
 </html>
