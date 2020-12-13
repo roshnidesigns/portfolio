@@ -8,13 +8,39 @@
     --light-gray: #848c8e51;
 }
 
+.arrows 
+{
+    padding-top: 120px;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+  
+  @keyframes arrows {
+    0%,
+    100% {
+      color: var(--base-black);
+      transform: translateY(0);
+    }
+    50% {
+      color: #fff;
+      transform: translateY(20px);
+    }
+  }
+  
+.arrow {
+    --delay: 0s;
+    animation: arrows 1s var(--delay) infinite ease-in;
+}
+
 .tooltip {
     position: relative;
     display: inline-block;
     outline: none;
   }
   
-  .tooltip .tooltiptext {
+.tooltip .tooltiptext {
     visibility: hidden;
     width: 140px;
     background-color: #555;
@@ -29,9 +55,9 @@
     margin-left: -75px;
     opacity: 0;
     transition: opacity 0.3s;
-  }
+}
   
-  .tooltip .tooltiptext::after {
+.tooltip .tooltiptext::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -40,12 +66,12 @@
     border-width: 5px;
     border-style: solid;
     border-color: #555 transparent transparent transparent;
-  }
+}
   
-  .tooltip:hover .tooltiptext {
+.tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
-  }
+}
   
 /* var(--base-black) */
 .footer{
@@ -57,7 +83,7 @@
     background-color: var(--base-black);
 }
 .footer-content{
-    margin: 16% 24% 8% 24%;
+    margin: 12% 24% 8% 24%;
     padding: 84px 0px;
 }
 .ft{
@@ -264,7 +290,7 @@ color: var(--base-gray);
     color: inherit;
     font-size: 24px;
     letter-spacing: 0.8px;
-    margin: 10px auto;
+    margin: 10px inherit;
     
 }
 .card-desc{
@@ -281,7 +307,7 @@ color: var(--base-gray);
     border-radius: 12px;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
       transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-  padding: 16px 120px 16px 48px;
+  padding: 1.6% 16% 3.2% 4.8%;
   cursor: pointer;
 }
 .card:hover{
@@ -432,7 +458,7 @@ color: var(--base-gray);
 
 
 .header-name{
-    padding: 12% 24% 2.4% 24%;
+    padding: 12% 16% 2.4% 16%;
     text-align: center;
     align-items: center;
 
