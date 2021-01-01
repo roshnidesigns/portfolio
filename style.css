@@ -1,3 +1,9 @@
+@font-face{
+    font-family: 'Vesterbo';
+    src: url(fonts/TRYVesterbro-Extrabold.otf);
+    font-style: bold;    
+}
+
 :root{
     --base-yellow: #FFB800;
     --dark-yellow:#573D1C;
@@ -75,7 +81,7 @@
   
 /* var(--base-black) */
 .footer{
-    width: inherit;
+    width: 100%;
     text-align: center;
 
 }
@@ -87,8 +93,7 @@
     padding: 84px 0px;
 }
 .ft{
-    font-family: 'Playfair Display', serif;
-    font-weight: 800;
+    font-family: Vesterbo;
     font-size: 32px;
     color: white;
     text-decoration: none;
@@ -180,10 +185,8 @@ color: var(--base-gray);
       transition: width .09s linear; }
 
 .titles{
-    font-family: 'Playfair Display', serif;
-    font-weight: 800;
+    font-family: Vesterbo;
     font-size: 30px;
-    letter-spacing: 0.8px;
     margin: 32px 0px 16px 0px;
     color:  var(--base-black);
 
@@ -210,8 +213,7 @@ color: var(--base-gray);
     color: black;
     height: fit-content;
 
-    font-family: 'Playfair Display', serif;
-    font-weight: 800px;
+    font-family: Vesterbo;
     font-size: 24px;
     padding: 0px 8px;
 }
@@ -255,9 +257,7 @@ color: var(--base-gray);
     text-align: center;
     padding: 0% 24% ;
     font-size: 24px;
-    letter-spacing: 0.8px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 800;
+    font-family: Vesterbo;
 }
 
 
@@ -444,10 +444,9 @@ color: var(--base-gray);
 }
 .highlight-header, .side-header{
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: Vesterbo;
     font-weight: 800;
     font-size: 40px;
-    letter-spacing: 0.8px;
     padding-top: 32px;
     padding-bottom: 0px;
     color: var(--base-black);
@@ -462,8 +461,7 @@ color: var(--base-gray);
     text-align: center;
     align-items: center;
 
-    font-family: 'Playfair Display', serif;
-    font-weight: 800;
+    font-family: Vesterbo;
     font-size: 80px;
     color: var(--base-black);
 }
@@ -570,6 +568,7 @@ body{
 
     place-items: center; 
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
  
 }
 
