@@ -4,6 +4,15 @@
     font-style: bold;    
 }
 
+@font-face{
+    font-family: 'Sofia-normal';
+    src: url(fonts/Sofia/Sofia\ Pro\ Regular\ Az.otf);
+}
+@font-face{
+    font-family: 'Sofia-bold';
+    src: url(fonts/Sofia/Sofia\ Pro\ Semi\ Bold\ Az.otf);
+}
+
 :root{
     --base-yellow: #FFB800;
     --dark-yellow:#573D1C;
@@ -16,6 +25,8 @@
 
 .arrows 
 {
+    font-family: 'Vesterbo';    
+    font-size: 40px;
     padding-top: 120px;
     display: flex;
     height: fit-content;
@@ -30,8 +41,8 @@
       transform: translateY(0);
     }
     50% {
-      color: #fff;
-      transform: translateY(20px);
+      color: var(--base-gray);
+      transform: translateY(12px);
     }
   }
   
@@ -99,7 +110,6 @@
     text-decoration: none;
 }
 .ftt{
-    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.16px;
@@ -108,7 +118,6 @@ color: var(--base-gray);
 }
 .copy{
     width: fit-content;
-    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 18px;
     letter-spacing: 0.8px;
@@ -148,7 +157,6 @@ color: var(--base-gray);
 }
 .skills{
     max-width: 60%;
-    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     letter-spacing: 0.8px;
     padding: 24px 0px 64px 0px;
@@ -192,7 +200,7 @@ color: var(--base-gray);
 
 }
 .itm{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Sofia-normal;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.8px;
@@ -223,7 +231,6 @@ color: var(--base-gray);
 
 .normal-type{
     margin: 32px 0px;
-    font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 18px;
     line-height: 28px;
@@ -285,16 +292,15 @@ color: var(--base-gray);
 }
 
 .card-title{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Sofia-bold;
     font-weight: 600;
     color: inherit;
     font-size: 24px;
     letter-spacing: 0.8px;
-    margin: 10px inherit;
+    margin: 10px 0px;
     
 }
 .card-desc{
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 14px;
     color: inherit;
@@ -307,7 +313,7 @@ color: var(--base-gray);
     border-radius: 12px;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
       transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-  padding: 1.6% 16% 3.2% 4.8%;
+  padding: 8% 16% 8% 8%;
   cursor: pointer;
 }
 .card:hover{
@@ -350,7 +356,7 @@ color: var(--base-gray);
 }
 .item-3{
     text-align: center;
-    padding-top: 6.4%;
+    padding-top: 8%;
     padding-left: 8%;
     padding-right: 8%;
     border-radius: inherit;
@@ -358,7 +364,7 @@ color: var(--base-gray);
 }
 .item-2{
     text-align: center;
-    padding-top: 6.4%;
+    padding-top: 8%;
     padding-left: 8%;
     padding-right: 8%;
     border-radius: inherit;
@@ -369,7 +375,7 @@ color: var(--base-gray);
     background-color: inherit;
     text-align: center;
     align-items: center;
-    padding-top: 6.4%;
+    padding-top: 8%;
     padding-left: 8%;
     padding-right: 8%;
     border-radius: inherit;
@@ -377,7 +383,8 @@ color: var(--base-gray);
 }
 
 .project-title{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Sofia-bold;
+
     font-weight: 600;
     font-size: 24px;
     letter-spacing: 0.8px;
@@ -387,7 +394,6 @@ color: var(--base-gray);
     margin: 4px 0px;
 }
 .project-desc{
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 14px;
     letter-spacing: 0.16px;
@@ -396,6 +402,7 @@ color: var(--base-gray);
     margin-bottom: 32px;
     color: rgb(250, 250, 250);
     line-height: 18px;
+    
 
 }
 .project-link{
@@ -405,14 +412,12 @@ color: var(--base-gray);
     width: 100%;
     text-align: center;
     align-items: center;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 1.4px;
     color: white;
 }
 #launch{
-    font-size: inherit;
     color: white;
     background-color: rgba(255, 255, 255, 0.2);
 
@@ -462,7 +467,7 @@ color: var(--base-gray);
     align-items: center;
 
     font-family: Vesterbo;
-    font-size: 80px;
+    font-size: 64px;
     color: var(--base-black);
 }
 .effect-shine:hover {
@@ -484,7 +489,6 @@ color: var(--base-gray);
     text-align: center;
     align-items: center;
 
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 24px;
     font-size: 16px;
@@ -504,7 +508,6 @@ color: var(--base-gray);
 }
 
 .name-toggle{
-    font-family: 'Open Sans', sans-serif;
     padding: 0px 8px;
     color: var(--base-yellow);    
     text-decoration: none;
@@ -517,7 +520,6 @@ color: var(--base-gray);
 }
 
 .name{
-    font-family: 'Open Sans', sans-serif;
     padding: 0px 8px;
     color: var(--base-gray);
     font-size: inherit;
@@ -531,7 +533,6 @@ color: var(--base-gray);
 .resume{
     padding: 0px 8px;
     color: var(--base-gray);
-    font-family: 'Open Sans', sans-serif;
     padding: 0px 8px;
     font-size: inherit;
     line-height: 20px;
@@ -539,12 +540,12 @@ color: var(--base-gray);
     text-decoration: none;
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
-}
 button{
+    font-family: Sofia-normal;
+    font-size: inherit;
+
     margin: 8px 0px;
-    padding: 8px 16px;
+    padding: 12px 12px 12px 24px;
     border: none;
     border-radius: 4px;
 }
@@ -555,7 +556,6 @@ a{
 
 /*loader*/
 #loader{
-    font-family: 'Open Sans', sans-serif;
     padding: 0px 8px;
     color: burlywood;
     font-size: 16px;
@@ -565,9 +565,8 @@ a{
     padding: 0% 24%;
 }
 body{
-
+font-family: Sofia-normal;
     place-items: center; 
-    font-family: 'Open Sans', sans-serif;
     margin: 0px;
  
 }
@@ -634,3 +633,7 @@ svg.tea{
 }
 
 
+
+canvas {
+    display: block;
+}
