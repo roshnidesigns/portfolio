@@ -234,7 +234,7 @@ color: var(--base-gray);
     text-align: center;
     font-size: 18px;
     line-height: 28px;
-    padding: 16px 0px;
+    padding: 8% 24%;
     color:  var(--base-black);
 }
 .profile{
