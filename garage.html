@@ -22,6 +22,7 @@
         <li><a id="resume" target="_blank" href="https://drive.google.com/file/d/125otoygC3uHkf0KFYXsMtApbjsHzPgS6/view?usp=sharing">RESUME <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
         <li><a href="garage.html">GARAGE</a></li> 
           <!-- <i class="fa fa-angle-down" aria-hidden="true"></i>-->
+          
         <li><a href="about.html">MEH.</a></li>
       </ul>
     </nav>
@@ -30,100 +31,73 @@
     </div>
   </header>
 
+
   <div class="container">
-    <!-- intro-profile -->
-    <section id="grid" class="contain">
-        <div class="intro">
-            <div class="col-1-1">
-                A bite of <span class="highlighted">Light</span>
-            </div>
-            
-            <div class="col-1-2">
-                I’m a self-taught designer emerging from a Computer Science background, which enables me to <span class="highlight-scroll">speak the language of Engineers and consider their needs</span> while making design decisions. My exposure to several<span class="highlight-scroll"> hackathons, the b2b industry, and collaboration with an open-source community has helped me clearly and concisely communicate my ideas </span>with a variety various of audiences - be it my teammates, users, clients, or stakeholders.
-            </div> 
-        </div>
-
-        <div class="img-caption">
-            <img class="col-2-1" src="images/me.png" alt="">
-
-            <div class="col-2-2">
-                She is a high-spirited human😼 - dedicated to Product Design and Problem Solving, with constant urge to improve herself ❤
-            </div>
-        </div>
-    </section>
-      
-    <!-- values and mantras -->
-    <section id="grid" class="contain">
-      <!-- column 1 itemlist -->
-      <div id="item-list-1">
-        <h3 class="title">
-          Must know stuffs! 
-        </h3>
-
-        <div class="item-list">
-          <div class="item">
-            <h5 class="item-head">
-              Thinker + Researcher
-            </h5>
-            <p class="item-body">
-              I love to think and observe how things work in a sector
-            </p>
-          </div>
-
-          <div class="item">
-            <h5 class="item-head">
-              Consistent learner
-            </h5>
-            <p class="item-body">
-              I love to think and observe how things work in a sector
-            </p>
-          </div>
-
-          <div class="item">
-            <h5 class="item-head">
-              Product enthusiast
-            </h5>
-            <p class="item-body">
-              I love to think and observe how things work in a sector
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- column 2 itemlist -->
-      <div id="item-list-2">
-        <!-- <h3 class="title">
-          Mantras matter. 
-        </h3> -->
-
-        <div class="item-list border">
-          <h5 class="item item-head">
-            😌  Believe in yourself
-          </h5>
-
-          <h5 class="item item-head">
-            💪  Give your fkin’ best!
-          </h5>
-
-          <h5 class="item item-head">
-            ☺️  Have patience, be kind
-          </h5>
-
-          <h5 class="item item-head">
-            🚀  Always keep learning          </h5>
-        </div>
-      </div>
-    </section>
-
-    <!-- random scroll -->
-
+    <!-- title -->
     <section class="contain">
-      <h3 class="title">
-        Enjoy random scrolls ;)
-      </h3>
+      <div class="intro">
+        When idle, I <span class="highlight-full c2 active"><a href="#">create</a></span>
+      </div>
+  
+      <div class="sub-intro subtitle">
+        When not designing, one can spot me either preparing for my upcoming <span class="highlight-half c1">hackathon</span>, or lying all day <span class="highlight-half c1">binging anime</span>, or creating a world-class <span class="highlight-half c1">painting</span>✨ while relishing classic <span class="highlight-half c1">vintage playlist</span> ♪
+      </div>
+    </section>
+    
+    <!-- other side work -->
+    <section class="contain">
+      <p class="title">
+        SIDE PROJECTS
+      </p>
 
-      <div id="myModal" class="modal about">
-        <div class="modal-content about">
+      <div>
+        <img class="cards" src="images/card-1.png" alt="">
+        <img class="cards" src="images/card-1.png" alt="">
+      </div>    
+    </section>
+
+    <!-- hackathon projects -->
+    <section class="contain">
+      <p class="title">
+        HACKATHONS
+      </p>
+
+      <div>
+        <img class="cards" src="images/work-innovaccer.png" alt="">
+        <img class="cards" src="images/work-innovaccer.png" alt="">
+      </div>    
+    </section>
+
+    <!-- art-collage -->
+    <section class="contain">
+      <p class="title">
+        MY CREATIVE SOLACE
+      </p>
+
+      <div id="photogrid" class="row">
+        <div class="column">
+          <img src="images/photogrid/1.png" style="width:100%" onclick="openModal();currentSlide(1)">
+        </div>        
+        <div class="column">
+          <img src="images/photogrid/11.png" style="width:100%" onclick="openModal();currentSlide(2)">
+        </div>
+        <div class="column">
+          <img src="images/photogrid/10.png" style="width:100%" onclick="openModal();currentSlide(3)">
+        </div>
+        <div class="column">
+          <img src="images/photogrid/3.png" style="width:100%" onclick="openModal();currentSlide(4)">
+        </div>
+        <div class="column">
+          <img src="images/photogrid/5.png" style="width:100%" onclick="openModal();currentSlide(5)">
+        </div>
+        <!-- <div class="numbertext">4 / 4</div> -->
+      </div>
+
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </span>
+        <div class="modal-content">
       
           <div class="mySlides">
             <img src="images/photogrid/1.png" style="width:100%">
@@ -151,15 +125,11 @@
           </a>
           <a id="scroll-btn" class="next" onclick="plusSlides(1)">        
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            </a>      
+            </a>  
         </div>
       </div>
-
     </section>
 
-
-
-  
     <!-- footer -->
     <section id="footer">
       <div class="footer">
