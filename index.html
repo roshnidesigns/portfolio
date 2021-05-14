@@ -1,115 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Roshni Prajapati | Product Prajapati</title>
-  <link rel="icon" href="images/favicon-name.png" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Lora&display=swap" rel="stylesheet">  
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="images/png" href="images/fav.png"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Roshni Prajapati | Digital Product Designer</title>
 </head>
-<body>
-  <header>
-    <div class="logo">
-      <a class="home" href="index.html">RP</a>
+<!--
+#FFB800
+-->
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader">
+        <svg class="tea" width="37" height="48" viewbox="0 0 37 48"  xmlns="http://www.w3.org/2000/svg">
+            <path d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z" stroke="var(--secondary)" stroke-width="2"></path>
+            <path d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34" stroke="var(--secondary)" stroke-width="2"></path>
+            <path id="teabag" fill="var(--secondary)" fill-rule="evenodd" clip-rule="evenodd" d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z"></path>
+            <path id="steamL" d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="var(--secondary)"></path>
+            <path id="steamR" d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13" stroke="var(--secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg><br><br>
+          Roshni never says no to Coffee ✨
+
     </div>
-    
-    <nav>
-      <ul>
-        <li><a id="resume" target="_blank" href="https://drive.google.com/file/d/125otoygC3uHkf0KFYXsMtApbjsHzPgS6/view?usp=sharing">RESUME <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-        <li><a href="garage.html">GARAGE</a></li>
-          <!-- <i class="fa fa-angle-down" aria-hidden="true"></i> -->
-        <li><a href="about.html">MEH.</a></li>
-      </ul>
-    </nav>
-    <div class="menu-toggle">
-      <i class="fa fa-bars"></i>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+
+    <div class="header">
+        <div class="header-name">
+            Hi, I'm <span class="effect-shine"> Roshni </span>
+        </div>
+        <div class="sub-header">
+            <span id="name" class="name">Roshni?</span>
+             
+            <a href="https://drive.google.com/file/d/125otoygC3uHkf0KFYXsMtApbjsHzPgS6/view?usp=sharing" target="_blank">
+            <span class="resume"> RESUME<i id="" class="material-icons">launch</i>
+            </span>
+            </a>
+        </div>
+
+        <div class="normal-type">
+            A digital product designer who likes to solve UX issues by merging aesthetics 🎨, a bit of maths 📐 & data in unequal proportions ⚖️
+        </div>
+
     </div>
-  </header>
 
 
-  <div class="container">
-    <section id="grid" class="contain">
-      <div class="intro">
-        Hi, I'm <span class="highlighted">Roshni</span> <br>
-        I 
-        <span class="highlight-full c1"><a href="#projects"> design</a></span>, <br>
-        I 
-        <span class="highlight-full c2"><a href="garage.html"> create</a></span>, <br>
-        I       
-        <span class="highlight-full c3"><a target="_blank" href="https://roshniscribbles.medium.com/"> write</a></span> &
-      </div>
+    <!--On-plate or highlights-->
+    <div class="highlights">
+        <div class="highlight-header">
+            Hot On-Plate 🔥 
+        </div>
+
+        <div class="item-list">
+
+            <!--project 0-->
+            <div class="item">
+                <a href="https://roshniscribbles.medium.com/one-with-the-masala-design-1b7f0e96f70" target="_blank">
+                <div class="item-1">
+                    <p class="project-title">Product Design Intern @Innovaccer</p>
+                    <p class="project-desc">Highlights from my product design winter internship with the Innovaccer Masala Design team.</p>
+                    <img class="item-image" src="images/imb0.png" alt="">
+
+                    <p class="project-link"> 
+                        <button id="launch"> View Project 
+                        <i class="material-icons">launch</i></button>
+                    </p> 
+
+                </div>
+                </a>
+            </div>
+
+            <!--project 1-->
+            <div class="item">
+                <a href="https://roshniscribbles.medium.com/summer-summed-up-d5c6f530c272" target="_blank">
+                <div class="item-1">
+                    <p class="project-title">Outreachy'2020 Design Intern</p>
+                    <p class="project-desc">First industry experience as a design intern. Improved overall experience of system users by performing heuristic analysis, user testing, and research to identify pain points and needs.</p>
+                    <img class="item-image" src="images/imb1.png" alt="">
+
+                    <p class="project-link"> 
+                        <button id="launch"> View Project 
+                        <i class="material-icons">launch</i></button>
+                    </p> 
+
+                </div>
+                </a>
+            </div>
+
+            <!--project 2-->
+            <div class="item">
+                <a href="https://roshniscribbles.medium.com/f%C3%ADlos-e5e5cc323982" target="_blank">
+                <div class="item-2">
+                    <p class="project-title">fílos</p>
+                    <p class="project-desc">A Pet adoption app concept designed as a part of a personal project- helps connect people looking for a new pet keeping in consideration their lifestyle</p>
+                    <img class="item-image" src="images/imb2.png" alt="">
+
+                    <p class="project-link"> <button id="launch"> View Project <i class="material-icons">launch</i>
+                    </button></p> 
+                </div></a>
+            </div>
+
+            <!--project 3-->
+            <div class="item">
+                <a href="https://roshniscribbles.medium.com/writing-on-ux-challenge-for-15-days-straight-658fde163415" target="_blank">
+                <div class="item-3">
+                    <p class="project-title">Solving Daily UX Issues</p>
+                    <p class="project-desc">15 Days, 15 UX issues - <br>solving and writing to improve user experience.</p>
+                    <img class="item-image" src="images/imb3.png" alt="">
+
+                    <p class="project-link"> <button id="launch">View Project <i class="material-icons">launch</i>
+                    </button></p> 
+                </div></a>
+            </div>
+        </div>
+    </div>
+    <!--highlights projects or hotonplate end-->
+
+    <!--side projects begin-->
+    <div class="sidemenu">
+        <div class="side-header">
+            Side Menu 🍸
+        </div>
+
+        <div class="side-list">
+            <!--design for sidemenu items-->
+
+            <!--side-project-1-->
+            <a href="https://www.figma.com/community/plugin/870191885836440905/PixelsConvert" target="_blank">
+            <div class="side-card"> 
+                <div class="card card-1">
+                    <p class="card-title">PixelsConvert</p>
+                    <p class="card-desc">A figma plugin that gets you parameters in px, dip, mm, inch and pts for varying resolutions.</p>
+                    <button id="launch-dark">View Project <i class="material-icons">launch</i>
+                    </button>
+                  </div>
+            </div></a>
+
+            <!--side-project-2-->
+            <a href="https://www.behance.net/gallery/89656633/Tshirt-Design" target="_blank">
+            <div class="side-card"> 
+                <div class="card card-2">
+                    <p class="card-title">T-shirt designs</p>
+                    <p class="card-desc">A collection of t-shirt designs for college fests and practice!</p>
+                    <button id="launch-dark">View Project <i class="material-icons">launch</i>
+                    </button>
+                  </div>
+            </div></a>
+
+            <!--side-project-3-->
+            <a href="https://www.flickr.com/photos/190728056@N04/" target="_blank" rel="noopener noreferrer">
+            <div class="side-card"> 
+                <div class="card card-3">
+                    <p class="card-title">Poster Collection</p>
+                    <p class="card-desc">Collection of poster designs for cultural and technical fests @IIITA</p>
+                    <button id="launch-dark">View Project <i class="material-icons">launch</i>
+                    </button>
+                  </div>
+            </div></a>
+
+        </div>
+    </div>
+    <!--side projects ends-->
+
+    <!-- <div class="manymore">
+        many more on the way..
+    </div> -->
+<a href="about.html" rel="noopener noreferrer">
+
+<div class="arrows">
+    <span class="arrow">A</span>
+    <span class="arrow" style="--delay: 0.1s">b</span>
+    <span class="arrow" style="--delay: 0.3s">o</span>
+    <span class="arrow" style="--delay: 0.4s">u</span>
+    <span class="arrow" style="--delay: 0.5s">t </span>
+    <span class="arrow" style="--delay: 0.7s">&nbsp M</span>
+    <span class="arrow" style="--delay: 0.8s">e</span>
+    <span class="arrow" style="--delay: 0.9s">!</span>
   
-      <div class="sub-intro">
-        the hunt is still ONN💃<br>Enters another supa-designer! With interests lying in 
-        <span class="highlight-half">user experience</span>, <span class="highlight-half">interaction</span> and <span class="highlight-half">product</span> arena and inclined towards learning new stuffs.
-      </div>
-    </section>
+</div>
+ </a> 
 
-    <section id="projects" class="contain">
-      <p class="title">
-        CASE STUDIES
-      </p>
+<div class="footer">
+    <div>
+        <div class="footer-content">
 
-      <div>
-        <a href="case-study-1.html">
-          <img class="cards" src="images/card-1.png" alt="">
-        </a>
-        <img class="cards" src="images/card-1.png" alt="">
-      </div>    
-    </section>
-
-    <section class="contain">
-      <p class="title">
-        WORK
-      </p>
-
-      <div>
-        <img class="cards" src="images/work-innovaccer.png" alt="">
-        <img class="cards" src="images/work-intermine.png" alt="">
-      </div>    
-    </section>
-
-    <section id="footer">
-      <div class="footer">
-        <p class="footer-head">
-          We should connect!
-        </p>
-
-        <div class="socials">
-          <a href="https://dribbble.com/roshnionDribbb" target="_blank" rel="noopener noreferrer"> <i id="footer-icon" class="fa fa-dribbble" aria-hidden="true"></i></a> 
-          <a href="https://twitter.com/tinycosmoSpks" target="_blank" rel="noopener noreferrer"> <i id="footer-icon" class="fa fa-twitter" aria-hidden="true"></i></a>
-          <a href="https://roshniscribbles.medium.com/" target="_blank" rel="noopener noreferrer"> <i id="footer-icon" class="fa fa-medium" aria-hidden="true"></i></a>
-          <a href="linkedin.com/in/roshnionin/" target="_blank" rel="noopener noreferrer"> <i id="footer-icon" class="fa fa-linkedin" aria-hidden="true"></i> </a>
         </div>
+    </div>
+    <div class="ftt" style="font-size: 16px;">
+        <a style="color: #848C8E;" href="https://twitter.com/tinycosmoSpks" target="_blank" rel="noopener noreferrer">
+            <span style="text-decoration: underline;">Twitter</span>
+            &ensp;&ensp;•&ensp;&ensp;</a>
+        <a style="color: #848C8E;" href="https://www.linkedin.com/in/roshnionin/" target="_blank" rel="noopener noreferrer">
+            <span style="text-decoration: underline;">LinkedIn</span>
+            &ensp;&ensp;•&ensp;&ensp;</a>
+        <a style="color: #848C8E;" href="https://roshniscribbles.medium.com/" target="_blank" rel="noopener noreferrer">
+            <span style="text-decoration: underline;">Medium</span>            
+            </a>
+    </div>
+    <div class="ftt">
+        Copyright © 2020 Roshni Prajapati. Don't!
+    </div>
 
-        <div class="tooltip">
-          <button onclick="setClipboard('galwhodesigns@gmail.com')" onmouseout="outFunc()">       
-            <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-            <p class="footer-font email">
-              galwhodesigns@gmail.com
-            </p>  
-          </button>
-        </div>
-      </div>
+</div>
+</div>
 
-      <div>
-        <p class="footer-font dialogue">Crafted with 🖐  Moulded with 🎵</p>
-        <p class="footer-font copyright">Copyright © 2021 Roshni Prajapati. Dont!</p>
-      </div>      
-    </section>
-  </div>
+    <script src="animate.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js" type="text/javascript"></script>
 
-
-
-
-
-
-  <script type="text/javascript" src="animate.js"></script>
 </body>
 </html>
