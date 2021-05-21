@@ -58,8 +58,6 @@ function outFunc() {
 
   var myVar;
   function myFunction() {
-    myVar = setTimeout(showPage, 2000);
-
     var quotes = [
       'She is an engineer turned designer :0',
       'Her highest sleep record- 12 hrs😴',
@@ -72,6 +70,7 @@ function outFunc() {
     var quotenum =random+1
     document.getElementById("quotenum").innerHTML = quotenum + "";
     document.getElementById("quote").innerHTML = quotes[random];
+    myVar = setTimeout(showPage, 2000);
   }
   
   function showPage() {
