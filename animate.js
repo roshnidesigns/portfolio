@@ -64,7 +64,8 @@ function outFunc() {
       'She possesses story telling power :D',
       'She loves dark coffee.',
       'Love at first sight- Bentley ❤',
-      'She can’t remain idle 💃'
+      'She can’t remain idle 💃',
+      'Roshni ~ Light ~ ⚡️'
     ]
     var random = Math.floor(Math.random() * (quotes.length));
     var quotenum =random+1
