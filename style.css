@@ -266,6 +266,14 @@ h3.title{
     letter-spacing: 0;
     margin: 20px 0px;
 }
+h3.title.small{
+    font-family: 'av-medium';
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--gray);
+    letter-spacing: 0;
+    margin: 20px 0px;
+}
 h5.item-head{
     font-family: 'av-medium';
     color: var(--gray);
@@ -482,12 +490,12 @@ div.scroll-items img{
     opacity: 0.35;
     transition: 0.25s ease;
     border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
     border: 0;
   }
   #scroll-btn:hover{
       opacity: 0.9;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
   }
   a.prev{
     left: 8px;
