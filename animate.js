@@ -16,7 +16,6 @@ function setClipboard(value) {
   var tooltip = document.getElementById("myTooltip");
 tooltip.innerHTML = "Mail Copied!";
 }
-  
 function outFunc() {
   var tooltip = document.getElementById("myTooltip");
   tooltip.innerHTML = "Copy to clipboard";
@@ -27,22 +26,17 @@ function outFunc() {
   function openModal() {
     document.getElementById("myModal").style.display = "block";
   }
-  
   function closeModal() {
     document.getElementById("myModal").style.display = "none";
-  }
-  
+  } 
   var slideIndex = 1;
   showSlides(slideIndex);
-  
   function plusSlides(n) {
     showSlides(slideIndex += n);
-  }
-  
+  } 
   function currentSlide(n) {
     showSlides(slideIndex = n);
   }
-  
   function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
@@ -61,3 +55,28 @@ function outFunc() {
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
   
+
+  var myVar;
+  function myFunction() {
+    myVar = setTimeout(showPage, 2000);
+
+    var quotes = [
+      'She is an engineer turned designer :0',
+      'Her highest sleep record- 12 hrs😴',
+      'She possesses story telling power :D',
+      'She loves dark coffee.',
+      'Love at first sight- Bentley ❤',
+      'She can’t remain idle 💃'
+    ]
+    var random = Math.floor(Math.random() * (quotes.length));
+    var quotenum =random+1
+    document.getElementById("quotenum").innerHTML = quotenum + "";
+    document.getElementById("quote").innerHTML = quotes[random];
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  }
+
+
