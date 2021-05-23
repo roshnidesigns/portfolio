@@ -59,12 +59,12 @@ function outFunc() {
   var myVar;
   function myFunction() {
     var quotes = [
-      'She is an engineer turned designer :0',
-      'Her highest sleep record- 12 hrs😴',
-      'She possesses story telling power :D',
-      'She loves dark coffee.',
+      "I'm an engineer turned designer :0",
+      'My highest sleep record- 18 hrs😴',
+      'I possess story telling super power :D',
+      'I 🤎 dark coffee.',
       'Love at first sight- Bentley ❤',
-      'She can’t remain idle 💃',
+      'I can’t remain idle 💃',
       'Roshni ~ Light ~ ⚡️'
     ]
     var random = Math.floor(Math.random() * (quotes.length));
