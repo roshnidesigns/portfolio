@@ -71,7 +71,11 @@ function outFunc() {
     var quotenum =random+1
     document.getElementById("quotenum").innerHTML = quotenum + "";
     document.getElementById("quote").innerHTML = quotes[random];
-    myVar = setTimeout(showPage, 2000);
+    myVar = setTimeout(showPage, 1500);
+
+    var link = document.getElementById("link-rp");
+    link.setAttribute("href", "https://roshnidesigns.netlify.app/");
+
   }
   
   function showPage() {
