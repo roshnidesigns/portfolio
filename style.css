@@ -269,7 +269,8 @@ div.col-1-2{
 img.col-2-1{
     width: 100%;
     height: auto;
-    margin: 4em 0em;
+    margin: 2em 0em;
+    border-radius: 8px;
 }
 div.col-2-2{
     font-family: "Gloria Hallelujah", cursive;
