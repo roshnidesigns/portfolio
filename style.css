@@ -559,6 +559,7 @@ div.scroll-items img{
 .highlighted{
     background-color: var(--primary);
     background-size: 100% 100%;
+    color: var(--black);
 }
 span.highlight-full a{
     font-size: inherit;
@@ -958,7 +959,7 @@ button{
 
 #loader{
     padding: 0px 8px;
-    color: burlywood;
+    color: var(--primaryD);
     font-size: 20px;
     /* line-height: 24px; */
     letter-spacing: 0.16px;
@@ -966,10 +967,10 @@ button{
     padding: 0% 24%;
 }
 #quote{
-    color: var(--gray);
+    color: var(--black);
     font-family: 'av-medium';
     font-size: 18px;
-    padding: 2% 8%;
+    padding: 2% 2% 1%;
 }
 body{
     place-items: center; 
@@ -985,19 +986,19 @@ svg.tea{
     transform-origin: top center;
     transform: rotate(3deg);
     animation: swing 2s infinite;
-    fill: burlywood;
+    fill: var(--primaryD);
 }
 #steamL{
     stroke-dasharray: 13;
     stroke-dashoffset: 13;
     animation: steamLarge 2s infinite;
-    fill: burlywood;
+    fill: var(--primaryD);
 }
 #steamR{
     stroke-dasharray: 9;
     stroke-dashoffset: 9;
     animation: steamSmall 2s infinite;
-    fill: burlywood;
+    fill: var(--primaryD);
 }
 @keyframes swing{
   50%{
