@@ -66,7 +66,7 @@ function outFunc() {
       "Love at first sight- Bentley ❤",
       "I can’t remain idle 💃",
       "Roshni ~ Light ~ ⚡️",
-      "My current read: The Palace of Illusions",
+      "My current read📖 Don't Make Me Think",
       "Mystery/Thriller is my fav 📖"
     ]
     var random = Math.floor(Math.random() * (quotes.length));
