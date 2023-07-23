@@ -76,7 +76,7 @@ function outFunc() {
     myVar = setTimeout(showPage, 1500);
 
     var link = document.getElementById("link-rp");
-    link.setAttribute("href", "https://roshnidesigns.github.io/");
+    link.setAttribute("href", "https://roshnidesigns.github.io/portfolio/");
 
   }
   
