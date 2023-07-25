@@ -14,11 +14,11 @@ function setClipboard(value) {
   document.body.removeChild(tempInput);
 
   var tooltip = document.getElementById("myTooltip");
-tooltip.innerHTML = "Mail Copied!";
+tooltip.innerHTML = "Copied to clipboard!";
 }
 function outFunc() {
   var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Copy to clipboard";
+  tooltip.innerHTML = "Click to copy mail";
 }
 
 
