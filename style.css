@@ -669,7 +669,7 @@ header nav ul li a#resume{
     display: block;
     line-height: 50px;
     letter-spacing: 0.08em;
-    color: var(--gray);
+    color: var(--black);
     font-family: 'av-medium';
 
     -webkit-transition: all .4s ease;
