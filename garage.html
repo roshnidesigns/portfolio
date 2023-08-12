@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-PZBJ9CZVVX');
+  </script>
+
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roshni Prajapati | Product Designer</title>
+  <link rel="icon" href="images/favicon-name.png" type="image/gif" sizes="16x16">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Lora&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body onload="myFunction()">
+  <!-- loader -->
+  <div id="loader">
+    <svg class="tea" width="37" height="48" viewbox="0 0 37 48" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z"
+        stroke="var(--secondary)" stroke-width="2"></path>
+      <path
+        d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34"
+        stroke="var(--secondary)" stroke-width="2"></path>
+      <path id="teabag" fill="var(--secondary)" fill-rule="evenodd" clip-rule="evenodd"
+        d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z">
+      </path>
+      <path id="steamL" d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round" stroke="var(--secondary)"></path>
+      <path id="steamR" d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13" stroke="var(--secondary)"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    </svg><br>
+
+    <span style="font-family: font-medium; color: var(--gray); font-size: 16px;">
+      Lightfacts #<span id="quotenum"></span>
+    </span><br><br>
+    <span class="highlight-half" id="quote"></span>
+  </div>
+
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+    <header>
+      <div class="logo">
+        <a id="link-rp" class="home" href="index.html">RP</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a id="this" href="garage.html">Everything</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a target="_blank"
+              href="https://drive.google.com/file/d/125otoygC3uHkf0KFYXsMtApbjsHzPgS6/view?usp=sharing">
+              Resume <span style="font-size: 14px;">↗</span></a></li>
+        </ul>
+      </nav>
+
+      <div class="menu-toggle">
+        <i class="fa fa-bars"></i>
+      </div>
+    </header>
+    <div class="container">
+
+      <!-- title -->
+      <section class="contain">
+        <div class="intro">
+          Welcome to <span class="highlighted">my Realm!</span>
+        </div>
+      </section>
+
+      <!-- project-intermine -->
+      <section id="grid" class="contain project" onclick="openLink()">
+        <div class="project-content">
+          <p class="project-tags">
+            Industry Experience <span class="dot">&nbsp;•&nbsp;</span>
+            CASE STUDY
+          </p>
+          <div class="padding10"></div>
+          <h3 class="project-title">
+            As an Outreachy intern..
+          </h3>
+          <div class="padding20"></div>
+          <h5 class="project-subtitle">
+            I improved the usability and UI of the their platform by significant amount. Adding on, designed logo for
+            their new data platform.
+          </h5>
+          <div class="padding20"></div>
+          <a id="project-intermine" class="project-link"
+            href="https://respected-antelope-a63.notion.site/Design-Desk-Enhancing-digital-experience-for-scientists-biologists-97702ed2e412470ea3186962e914a24b"
+            target="_blank">
+            Read more &nbsp;<i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image/intermine.png" alt="picture giving context about the project">
+        </div>
+      </section>
+
+      <!-- project-ather -->
+      <section id="grid" class="contain project" onclick="openLink()">
+        <div class="project-content">
+          <p class="project-tags">
+            Design Challenge <span class="dot">&nbsp;•&nbsp;</span>
+            Case Study
+          </p>
+          <div class="padding10"></div>
+
+          <h3 class="project-title">
+            Runner up in UX Hack Challenge
+          </h3>
+          <div class="padding20"></div>
+
+          <h5 class="project-subtitle">
+            UX Audit of the booking process for an Ather bike, on mobile, and suggest improvements.
+          </h5>
+          <div class="padding20"></div>
+
+          <a id="project-ather" class="project-link"
+            href="https://www.behance.net/gallery/131178437/UX-Hack-Challenge-Ather-Booking-Redesign" target="_blank">
+            Read more &nbsp;<i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image/ather.png" alt="picture giving context about the project">
+        </div>
+      </section>
+
+
+      <hr>
+
+
+      <!-- project-plugin -->
+      <section id="grid" class="contain project" onclick="openLink()">
+        <div class="project-content">
+          <p class="project-tags">
+            FIGMA PLUGIN <span class="dot">&nbsp;•&nbsp;</span>
+            PERSONAL
+          </p>
+          <div class="padding10"></div>
+
+          <h3 class="project-title">
+            PixelsConvert: figma Plugin to convert parameters
+          </h3>
+          <div class="padding20"></div>
+
+          <a id="project-plugin" class="project-link"
+            href="https://www.figma.com/community/plugin/870191885836440905/PixelsConvert" target="_blank">
+            Tap to view &nbsp;<i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image/plugin.png" alt="picture giving context about the project">
+        </div>
+      </section>
+
+      <!-- project-innovaccer -->
+      <section id="grid" class="contain project" onclick="openLink()">
+        <div class="project-content">
+          <p class="project-tags">
+            Industry Experience <span class="dot">&nbsp;•&nbsp;</span>
+            Blog
+          </p>
+          <div class="padding10"></div>
+
+          <h3 class="project-title">
+            Experience as an Innovaccer intern..
+          </h3>
+          <div class="padding20"></div>
+
+          <!-- <h5 class="project-subtitle">
+            I learned inside and outside of industrial side of medical sector. Presented design solutions through user
+            stories for multiple stakeholders
+          </h5>
+          <div class="padding20"></div> -->
+
+          <a id="project-innovaccer" class="project-link"
+            href="https://medium.com/innovaccer-design/one-with-the-masala-design-1b7f0e96f70" target="_blank">
+            Read on Medium &nbsp;<i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image/innovaccer.png" alt="picture giving context about the project">
+        </div>
+      </section>
+
+      <!-- project-first -->
+      <section id="grid" class="contain project" onclick="openLink()">
+        <div class="project-content">
+          <p class="project-tags">
+            Industry Experience <span class="dot">&nbsp;•&nbsp;</span>
+            Blog
+          </p>
+          <div class="padding10"></div>
+
+          <h3 class="project-title">
+            Highlights from my first Industry Experience..
+          </h3>
+          <div class="padding20"></div>
+
+          <a id="project-first" class="project-link" href="https://medium.com/intermine/summer-summed-up-d5c6f530c272" target="_blank">
+            Read on Medium &nbsp;<i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image/first.png" alt="picture giving context about the project">
+        </div>
+      </section>
+
+
+      <hr>
+
+
+      <!-- project-tee -->
+      <section id="grid" class="contain project" onclick="openLink()">
+        <div class="project-content">
+          <p class="project-tags">
+            COLLEGE <span class="dot">&nbsp;•&nbsp;</span>
+            GRAPHICS
+          </p>
+          <div class="padding10"></div>
+
+          <h3 class="project-title">
+            Tee collection for College Events
+          </h3>
+          <div class="padding20"></div>
+
+          <a id="project-tee" class="project-link" href="https://www.behance.net/gallery/89656633/Tshirt-Design"
+            target="_blank">
+            Tap to view &nbsp;<i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image/tee.png" alt="picture giving context about the project">
+        </div>
+      </section>
+
+      <!-- project-poster -->
+      <section id="grid" class="contain project" onclick="openLink()">
+        <div class="project-content">
+          <p class="project-tags">
+            COLLEGE <span class="dot">&nbsp;•&nbsp;</span>
+            GRAPHICS
+          </p>
+          <div class="padding10"></div>
+
+          <h3 class="project-title">
+            Graphics Poster Design for College Events
+          </h3>
+          <div class="padding20"></div>
+
+          <a id="project-poster" class="project-link" href="https://www.flickr.com/photos/190728056@N04/"
+            target="_blank">
+            Tap to view &nbsp;<i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image/posters.png" alt="picture giving context about the project">
+        </div>
+      </section>
+
+
+
+
+      <!-- footer -->
+      <section class="footer">
+        <div>
+          <hr>
+          <h3 class="title">
+            Let's connect!
+          </h3>
+          <div class="subtitle" style="color: var(--gray);">
+            Enough about me, since you're here I'd like to know more about you.<br>
+            Let's connect anytime!
+          </div>
+        </div>
+
+        <section id="grid" class="contain">
+          <div class="socials">
+            <a href="https://www.instagram.com/roshni.create/" target="_blank" rel="noopener noreferrer"> <img
+                id="footer-icon" src="images/socials/white_Instagram_black.png"></a>
+
+            <a href="https://roshniscribbles.medium.com/" target="_blank" rel="noopener noreferrer"> <img
+                id="footer-icon" src="images/socials/white_Medium_black.png"></a>
+
+            <a href="https://twitter.com/tinycosmoSpks" target="_blank" rel="noopener noreferrer"> <img id="footer-icon"
+                src="images/socials/white_Twitter_black.png"> </a>
+
+            <a href="https://www.linkedin.com/in/roshnionin/" target="_blank" rel="noopener noreferrer"> <img
+                id="footer-icon" src="images/socials/white_LinkedIN_black.png"></a>
+
+            <a href="mailto:galwhodesigns@gmail.com?subject=Hey.. Let's Chat!" target="_blank"
+              rel="noopener noreferrer"> <img id="footer-icon" src="images/socials/white_Mail_black.png"></a>
+          </div>
+
+          <div>
+            <p class="dialogue">Handcrafted this place with <i class="fa-solid fa-brain"></i> & <i
+                class="fas fa-heart"></i></p>
+            <p class="copyright"><i class="fa-regular fa-copyright"></i> 2021 Roshni Prajapati. Don't!</p>
+          </div>
+        </section>
+
+      </section>
+
+    </div>
+  </div>
+  <script type="text/javascript" src="animate.js"></script>
+</body>
+
+</html>
