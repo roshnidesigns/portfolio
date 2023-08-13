@@ -47,7 +47,7 @@ span.dot{
 a.project-link{
     color: var(--black);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'font-medium';
     margin: 0px;
     -webkit-transition: all .4s ease;
