@@ -45,7 +45,7 @@ span.dot{
     line-height: 12px;
 }
 a.project-link{
-    color: var(--gray);
+    color: var(--black);
     text-decoration: none;
     font-size: 16px;
     font-family: 'font-medium';
@@ -75,10 +75,10 @@ h3.project-title{
 }
 h5.project-subtitle{
     font-family: 'font-regular';
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 26px;
     margin:  0px;
-    color: var(--black);
+    color: var(--gray);
 }
 div.project-content{
     padding-right: 12%;
@@ -175,7 +175,7 @@ div.padding80{
     color: var(--black);
     margin: 20px 0px;
 }
-.subtitle{
+.subtitle, .footer-subtitle{
     font-family: 'font-regular';
     font-size: 20px;
     line-height: 28px;
