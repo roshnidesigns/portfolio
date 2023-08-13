@@ -175,7 +175,18 @@ div.padding80{
     color: var(--black);
     margin: 20px 0px;
 }
-.subtitle, .footer-subtitle{
+.footer-subtitle{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-family: 'font-regular';
+    font-size: 20px;
+    line-height: 28px;
+    align-self: flex-end;
+    margin: 0px;
+    color: var(--black);
+
+}
+.subtitle{
     font-family: 'font-regular';
     font-size: 20px;
     line-height: 28px;
