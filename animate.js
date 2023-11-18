@@ -4,15 +4,15 @@ $(document).ready(function () {
   })
 })
 
+document.getElementById("medium").addEventListener("click", callMedium);
+function callMedium() {
+  document.getElementById("medium").href = "https://roshniscribbles.medium.com/";
+}
+
 
 document.getElementById("twitter").addEventListener("click", callTwitter);
 function callTwitter() {
   document.getElementById("twitter").href = "https://twitter.com/galwhodesigns";
-}
-
-document.getElementById("medium").addEventListener("click", callMedium);
-function callMedium() {
-  document.getElementById("medium").href = "https://roshniscribbles.medium.com/";
 }
 
 document.getElementById("linkedin").addEventListener("click", callLinkedin);
