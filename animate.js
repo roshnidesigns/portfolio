@@ -5,10 +5,26 @@ $(document).ready(function () {
 })
 
 
-document.getElementById("twitter").addEventListener("click", callLink);
-function callLink() {
+document.getElementById("twitter").addEventListener("click", callTwitter);
+function callTwitter() {
   document.getElementById("twitter").href = "https://twitter.com/galwhodesigns";
 }
+
+document.getElementById("medium").addEventListener("click", callMedium);
+function callMedium() {
+  document.getElementById("medium").href = "https://roshniscribbles.medium.com/";
+}
+
+document.getElementById("linkedin").addEventListener("click", callLinkedin);
+function callLinkedin() {
+  document.getElementById("linkedin").href = "https://www.linkedin.com/in/roshnionin/";
+}
+
+document.getElementById("insta").addEventListener("click", callInsta);
+function callInsta() {
+  document.getElementById("insta").href = "https://www.instagram.com/roshni.create/";
+}
+
 
 
 
