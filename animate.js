@@ -5,6 +5,11 @@ $(document).ready(function () {
 })
 
 
+document.getElementById("twitter").addEventListener("click", callLink);
+function callLink() {
+  document.getElementById("twitter").href = "https://twitter.com/galwhodesigns";
+}
+
 
 
 
