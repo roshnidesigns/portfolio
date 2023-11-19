@@ -17,12 +17,12 @@ function callTwitter() {
 
 document.getElementById("linkedin").addEventListener("click", callLinkedin);
 function callLinkedin() {
-  document.getElementById("linkedin").href = "https://www.linkedin.com/in/roshnionin/";
+  document.getElementById("linkedin").href = "https://www.linkedin.com/in/galwhodesigns";
 }
 
 document.getElementById("insta").addEventListener("click", callInsta);
 function callInsta() {
-  document.getElementById("insta").href = "https://www.instagram.com/galwhocreates/";
+  document.getElementById("insta").href = "https://www.instagram.com/galwhocreates";
 }
 
 
