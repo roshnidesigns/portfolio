@@ -6,7 +6,7 @@ $(document).ready(function () {
 
 document.getElementById("medium").addEventListener("click", callMedium);
 function callMedium() {
-  document.getElementById("medium").href = "https://roshniscribbles.medium.com/";
+  document.getElementById("medium").href = "https://medium.com/@galwhodesigns/";
 }
 
 
