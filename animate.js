@@ -22,7 +22,7 @@ function callLinkedin() {
 
 document.getElementById("insta").addEventListener("click", callInsta);
 function callInsta() {
-  document.getElementById("insta").href = "https://www.instagram.com/roshni.create/";
+  document.getElementById("insta").href = "https://www.instagram.com/galwhocreates/";
 }
 
 
