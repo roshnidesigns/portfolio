@@ -4,6 +4,10 @@ $(document).ready(function () {
   })
 })
 
+$(document).ready(function(){
+  document.getElementById("other").innerHTML = "Garage";
+}
+
 document.getElementById("medium").addEventListener("click", callMedium);
 function callMedium() {
   document.getElementById("medium").href = "https://medium.com/@galwhodesigns/";
